@@ -1,10 +1,11 @@
-import NavBar from "@/component/Home/NavBar";
 import HeroSection from "@/component/Home/Herosection";
+import Footer from "@/component/Home/Footer";
 
 function Home() {
   return(
     <section>
       <HeroSection />
+      <Footer></Footer>
     </section>
   );
 };

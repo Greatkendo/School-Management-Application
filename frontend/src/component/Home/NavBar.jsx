@@ -38,16 +38,21 @@ function NavBar() {
         <div className="flex justify-center items-center gap-8">
           <div className="border-r-3 border-r-gray-300 pr-6 flex gap-4">
             <Link href="/">Home</Link>
+            
             <Link href="/aboutus">About Us</Link>
 
             {/* Dropdown Menu for Accounts */}
             <DropDown />
 
             <Link href="/gallery">Gallery</Link>
+
+            <Link href="/blog">Blog</Link>
+
             <Link href="/contactus">Contact Us</Link>
           </div>
           <div className="flex gap-4">
             <Link className="bg-[#E2F3F4] py-2 px-6 rounded-md font-semibold hover:bg-[#6DC7D1]" href="/signin">Sign In</Link>
+
             <Link className="bg-[#6DC7D1] py-2 px-6 rounded-md font-semibold hover:bg-[#E2F3F4]" href="/register">Register</Link>
           </div>
         </div>

@@ -42,9 +42,9 @@
 import React from 'react';
 import { Carousel } from 'antd';
 const contentStyle = {
-  height: '80vh',
+  height: '40rem',
   color: '#fff',
-  lineHeight: '80vh',
+  lineHeight: '40rem',
   textAlign: 'center',
   background: '#364d79',
 };
@@ -55,16 +55,16 @@ const HeroSection = () => (
     autoplaySpeed={1000}
 >
     <div>
-      <img className='h-[80vh] w-full ' src="/pic1.jpg" alt="" />
+      <img className='h-[90vh] w-full object-cover' src="/pic1.jpg" alt="" />
     </div>
     <div>
-      <img src="https://media.istockphoto.com/id/2031588835/photo/high-school-students-and-teacher-in-computer-lab.jpg?s=612x612&w=0&k=20&c=D_75Oan3Bx6tRa4spty0MOvh4ANUleENXYRiOo1KsFY=" alt="" />
+      <img className='h-[90vh] w-full object-cover' src="/pic3.jpg" alt="" />
     </div>
     <div>
-      <img src="https://gsis-r2.parallel-technology.com/prod/School-Buses-Banner_iIyDhSJBbM.jpeg" alt="" />
+      <img className='h-[90vh] w-full object-cover' src="pic2.jpg" alt="" />
     </div>
     <div>
-      <img src="https://gsis-r2.parallel-technology.com/prod/School-Buses-Banner_iIyDhSJBbM.jpeg" alt="" />
+      <img className='h-[90vh] w-full object-cover' src="pic4.jpg" alt="" />
     </div>
   </Carousel>
 );

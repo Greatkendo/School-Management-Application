@@ -30,6 +30,7 @@ function Footer () {
        <Link href='/about-us'>About Us</Link>
        <Link href='/accounts'>Acounts</Link>
        <Link href='/gallery'>Gallery</Link>
+       <Link href='/blog'>Blog</Link>
        <Link href='/contact-us'>Contact Us</Link>
       </div>
      </div>
