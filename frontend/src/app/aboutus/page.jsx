@@ -1,7 +1,8 @@
+import About from "@/component/Home/About";
 function AboutUs () {
  return(
   <section>
-   <h1>Hello</h1>
+   <About></About>
   </section>
  );
 };
