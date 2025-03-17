@@ -17,7 +17,7 @@ function Information () {
           Read more
         </button>
       </div>
-      <div className="bg-emerald-50">
+      <div className="bg-emerald-50 py-10 mt-[4rem]">
         <div className="mt-[4rem] container mx-auto ">
           <div className="flex items-center gap-[10rem] p-2">
             <h3 className="w-[55rem] text-center text-xl font-medium">
@@ -29,7 +29,7 @@ function Information () {
 
             <img
               className="w-[70rem] h-[30rem] object-cover rounded-md"
-              src="/pexels-davegarcia-31085767.jpg"
+              src="/pic5.jpg"
               alt=""
             />
           </div>
@@ -37,7 +37,7 @@ function Information () {
           <div className="flex items-center gap-[10rem] mt-[4rem]">
             <img
               className="w-[65rem] h-[25rem] object-cover rounded-md"
-              src="/pexels-pavel-danilyuk-7942522.jpg"
+              src="/pic6.jpg"
               alt="graduation"
             />
             <h3 className="w-[55rem] text-center text-xl font-medium">
@@ -52,10 +52,10 @@ function Information () {
         </div>
       </div>
       {/* PRINCIPAL SECTION */}
-      <div className="flex gap-[10rem] mt-[8rem] container mx-auto items-center">
+      <div className="flex gap-[10rem] my-[8rem] container mx-auto items-center">
         <img
-          className="w-[40%] h-[85vh] rounded-lg object-cover"
-          src="/pexels-max-fischer-5212361.jpg"
+          className="w-[40%] h-[90vh] rounded-lg object-cover"
+          src="/pic7.jpg"
           alt="Principal"
         />
         <h3 className="w-[40rem] text-lg text-slate-800 font-extralight text-justify">
